@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Merch | Argentina Comic Con 2026</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="merch.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            ARGENTINA COMIC CON
+            <span>2026</span>
+        </a>
+
+        <nav class="nav">
+            <a href="index.html">Inicio</a>
+            <a href="index.html#fechas">Fechas</a>
+            <a href="index.html#galeria">Galería</a>
+            <a href="index.html#ubicacion">Ubicación</a>
+            <a href="#productos">Merch</a>
+            <a href="index.html#entradas" class="btn-entradas">Comprar entradas</a>
+            <a href="#mis-compras">MIS COMPRAS</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-superior">ARGENTINA COMIC CON 2026</p>
+
+            <h1>MERCH OFICIAL</h1>
+
+            <p>
+                Llevate un recuerdo de la experiencia.
+                Encontrá tus productos favoritos y sumate al universo Comic Con.
+            </p>
+
+            <a href="#productos" class="btn-principal">
+                VER PRODUCTOS
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTOS -->
+
+    <main>
+
+        <section class="productos" id="productos">
+
+            <div class="titulo-seccion">
+
+                <p>LA TIENDA DEL EVENTO</p>
+
+                <h2>¡ELEGÍ TU MERCH!</h2>
+
+                <span>
+                    Productos exclusivos para fans de la cultura pop.
+                </span>
+
+            </div>
+
+
+            <div class="productos-grid">
+
+                <!-- REMERA -->
+
+                <article class="producto">
+
+                    <div class="producto-imagen">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=85"
+                            alt="Remera de Comic Con">
+
+                        <span class="etiqueta">FAN FAVORITO</span>
+
+                    </div>
+
+                    <div class="producto-info">
+
+                        <p class="categoria">INDUMENTARIA</p>
+
+                        <h3>Remera Comic Con 2026</h3>
+
+                        <p class="descripcion">
+                            Remera edición especial para llevar la experiencia puesta.
+                        </p>
+
+                        <div class="producto-abajo">
+
+                            <span class="precio">$ 35.000</span>
+
+                            <button
+                                class="btn-agregar"
+                                data-id="remera"
+                                data-nombre="Remera Comic Con 2026"
+                                data-precio="35000">
+
+                                AGREGAR
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- GORRA -->
+
+                <article class="producto">
+
+                    <div class="producto-imagen">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=800&q=85"
+                            alt="Gorra de Comic Con">
+
+                        <span class="etiqueta">EDICIÓN 2026</span>
+
+                    </div>
+
+                    <div class="producto-info">
+
+                        <p class="categoria">ACCESORIOS</p>
+
+                        <h3>Gorra Comic Con</h3>
+
+                        <p class="descripcion">
+                            Un accesorio ideal para completar tu look de fan.
+                        </p>
+
+                        <div class="producto-abajo">
+
+                            <span class="precio">$ 22.000</span>
+
+                            <button
+                                class="btn-agregar"
+                                data-id="gorra"
+                                data-nombre="Gorra Comic Con"
+                                data-precio="22000">
+
+                                AGREGAR
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- LLAVERO -->
+
+                <article class="producto">
+
+                    <div class="producto-imagen">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=85"
+                            alt="Llavero coleccionable">
+
+                        <span class="etiqueta">COLECCIONABLE</span>
+
+                    </div>
+
+                    <div class="producto-info">
+
+                        <p class="categoria">COLECCIONABLES</p>
+
+                        <h3>Llavero Comic Con</h3>
+
+                        <p class="descripcion">
+                            Un pequeño recuerdo para llevar a todos lados.
+                        </p>
+
+                        <div class="producto-abajo">
+
+                            <span class="precio">$ 8.000</span>
+
+                            <button
+                                class="btn-agregar"
+                                data-id="llavero"
+                                data-nombre="Llavero Comic Con"
+                                data-precio="8000">
+
+                                AGREGAR
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CARRITO -->
+
+        <section class="carrito" id="carrito">
+
+            <div class="titulo-seccion">
+
+                <p>PREPARÁ TU COMPRA</p>
+
+                <h2>MI CARRITO</h2>
+
+            </div>
+
+            <div id="carrito-items">
+
+                <p class="carrito-vacio">
+                    Todavía no agregaste productos.
+                </p>
+
+            </div>
+
+            <div class="carrito-total">
+
+                <p>
+                    Total:
+                    <strong id="total-carrito">$ 0</strong>
+                </p>
+
+                <button id="btn-pagar" class="btn-principal" disabled>
+                    IR A PAGAR
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- PAGOS -->
+
+        <section class="pagos" id="pagos">
+
+            <div class="titulo-seccion">
+
+                <p>ÚLTIMO PASO</p>
+
+                <h2>FINALIZÁ TU COMPRA</h2>
+
+                <span>
+                    Seleccioná tu medio de pago.
+                </span>
+
+            </div>
+
+            <div class="pago-contenedor">
+
+                <form id="form-pago">
+
+                    <label for="nombre-pago">
+                        Nombre y apellido
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre-pago"
+                        placeholder="Nombre completo"
+                        required>
+
+
+                    <label for="email-pago">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email-pago"
+                        placeholder="tuemail@ejemplo.com"
+                        required>
+
+
+                    <label for="tarjeta">
+                        Tarjeta
+                    </label>
+
+                    <select id="tarjeta" required>
+
+                        <option value="">Seleccioná una tarjeta</option>
+
+                        <option value="visa">Visa</option>
+
+                        <option value="mastercard">Mastercard</option>
+
+                        <option value="amex">American Express</option>
+
+                    </select>
+
+
+                    <label for="numero-tarjeta">
+                        Número de tarjeta
+                    </label>
+
+                    <input
+                        type="text"
+                        id="numero-tarjeta"
+                        placeholder="0000 0000 0000 0000"
+                        inputmode="numeric"
+                        maxlength="19"
+                        required>
+
+
+                    <label for="cuotas">
+                        Cuotas
+                    </label>
+
+                    <select id="cuotas" required>
+
+                        <option value="1">1 pago</option>
+
+                    </select>
+
+                    <p id="mensaje-cuotas" class="mensaje-cuotas">
+                        Seleccioná una tarjeta para ver las opciones de pago.
+                    </p>
+
+
+                    <div class="resumen-pago">
+
+                        <span>Total a pagar</span>
+
+                        <strong id="total-pago">$ 0</strong>
+
+                    </div>
+
+
+                    <button type="submit" class="btn-principal">
+                        CONFIRMAR COMPRA
+                    </button>
+
+                    <p class="aviso-pago">
+                        Esta es una demostración de compra para el proyecto.
+                        No se realizan pagos reales.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+<!-- MIS COMPRAS -->
+
+<section class="mis-compras" id="mis-compras">
+
+    <div class="titulo-seccion">
+
+        <p>HISTORIAL DE COMPRAS</p>
+
+        <h2>MIS COMPRAS</h2>
+
+        <span>
+            Acá podés consultar las compras que realizaste en la tienda.
+        </span>
+
+    </div>
+
+    <div id="historial-compras">
+
+        <p class="compras-vacias">
+            Todavía no tenés compras realizadas.
+        </p>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <p>
+            ARGENTINA COMIC CON 2026
+        </p>
+
+        <a href="index.html">
+            Volver al sitio principal
+        </a>
+
+    </footer>
+
+
+    <script src="merch.js"></script>
+
+</body>
+
+</html>
